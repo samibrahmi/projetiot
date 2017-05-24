@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil"
+            android:icon="@drawable/ic_home"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_videocam"
+            android:title="Caméra distante" />
+        <item
+            android:id="@+id/nav_lampes"
+            android:icon="@drawable/ic_lightbulb"
+            android:title="Lampes" />
+        <item
+            android:id="@+id/nav_ultra_son"
+            android:icon="@drawable/ic_hearing"
+            android:title="Capteur ultra son" />
+        <item
+            android:id="@+id/nav_temperature"
+            android:icon="@drawable/ic_toys_black"
+            android:title="Températures" />
+        <item
+            android:id="@+id/nav_gaz"
+            android:icon="@drawable/ic_hot"
+            android:title="Capteur de gaz" />
+        <item
+            android:id="@+id/nav_alertes"
+            android:icon="@drawable/ic_warning"
+            android:title="Alertes" />
+    </group>
+
+    <item android:title="Mon compte">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_account"
+                android:title="Connexion" />
+            <item
+                android:id="@+id/nav_quitter"
+                android:icon="@drawable/ic_exit"
+                android:title="Quitter" />
+        </menu>
+    </item>
+
+</menu>

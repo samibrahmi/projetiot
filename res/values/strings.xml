@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Projetiot</string>
+
+    <string name="navigation_drawer_open">Ouvrir</string>
+    <string name="navigation_drawer_close">Fermer</string>
+
+    <string name="action_settings">Paramêtres</string>
+    <string name="title_activity_login">Connexion</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Login</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Connexion</string>
+    <string name="action_sign_in_short">Connexion</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Mot de passe trop court</string>
+    <string name="error_incorrect_password">Mot de passe invalide</string>
+    <string name="error_field_required">Champ requis</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Accueil</item>
+        <item>Caméra distante</item>
+        <item>Lampes</item>
+        <item>Capteur ultra son</item>
+        <item>Température</item>
+        <item>Capteur de gaz</item>
+        <item>Alertes</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chargement">Chargement en cours</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
